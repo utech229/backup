@@ -29,16 +29,16 @@ switch ($worked) {
 
 
 // Lancer la requête curl
-$OAUTH2_TOKEN_URI = 'https://oauth2.googleapis.com/token'; 
-$DRIVE_FILE_UPLOAD_URI = 'https://www.googleapis.com/upload/drive/v3/files'; 
-$DRIVE_FILE_META_URI = 'https://www.googleapis.com/drive/v3/files/'; 
-$API_KEY = 'AIzaSyBifeHznlQILIjvPis41BANGF4QkxLYV1A';
-$GOOGLE_CLIENT_ID = "779702624699-b9o70ak74udskikfqvneba8rcm5gv9m7.apps.googleusercontent.com";
-$GOOGLE_CLIENT_SECRET = "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";
-$GOOGLE_OAUTH_SCOPE = "https://www.googleapis.com/auth/drive";
-$REDIRECT_URI = "http://localhost/bakkup/redirected.php";
-$CODE = "4/0AdQt8qga4_Cnhgc1_jrye2hT7LFfYX2euQ2im0UmPC-Ik-Set_Y0VDS_5eVJLag3EQyq8A";
-$REFRESH_TOKEN = "1//04isqpDHxl98LCgYIARAAGAQSNwF-L9IrmlxGdAtEeXaE-WfDnU6uISMFseJ7TYtDbKPGNED4WQdm3Tjz_r2Pzus2monmIwk_eV0";
+$OAUTH2_TOKEN_URI = ''; 
+$DRIVE_FILE_UPLOAD_URI = ''; 
+$DRIVE_FILE_META_URI = ''; 
+$API_KEY = '';
+$GOOGLE_CLIENT_ID = "";
+$GOOGLE_CLIENT_SECRET = "";
+$GOOGLE_OAUTH_SCOPE = "";
+$REDIRECT_URI = "";
+$CODE = "";
+$REFRESH_TOKEN = "";
 
 try {
   $targetPath = $dbexport;
