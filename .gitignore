@@ -1,0 +1,12 @@
+*
+
+!.gitignore
+!backdb.php
+!backup-db.php
+!bakkup-old.php
+!uploadToDrive.sh
+!redirected.php
+!zekin__.sql.gz
+!getOldestDriveBackupId.sh
+!deleteDriveFile.sh
+!README.md
