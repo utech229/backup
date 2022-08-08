@@ -13,3 +13,5 @@ $dbhost = "";
 ---
 
 ## Sendmail requis dans le php.ini pour l'envoi d'email.
+
+## Changer l'url de redirection en fonction : $REDIRECT_URI
